@@ -1,0 +1,30 @@
+name: adhd_todo
+description: ADHD To-Do sample
+publish_to: "none"
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_local_notifications: ^17.2.4
+  timezone: ^0.9.4
+  flutter_timezone: ^5.0.1
+  uuid: ^4.3.3
+  drift: ^2.18.0
+  sqlcipher_flutter_libs: ^0.6.0
+  path_provider: ^2.1.4
+  path: ^1.9.0
+  duration_picker: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  drift_dev: ^2.18.0
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true

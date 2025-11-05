@@ -1,0 +1,77 @@
+# ---- OS / Editors ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code: keep workspace settings if you use them (do NOT ignore .vscode/)
+# .vscode/            # uncomment to ignore editor settings
+
+# Logs / heap dumps
+*.log
+*.hprof
+
+# Sometimes appears in your listing; ignore if created accidentally
+$null
+
+# ---- Flutter / Dart -------------------------------------------------------
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+**/GeneratedPluginRegistrant.*
+
+# Global build/coverage output
+/build/
+coverage/
+
+# Re-allow the single APK used by your README "Quick Run" instructions
+!build/
+!build/app/
+!build/app/outputs/
+!build/app/outputs/flutter-apk/
+!build/app/outputs/flutter-apk/app-debug.apk
+
+# ---- Android --------------------------------------------------------------
+android/.gradle/
+android/local.properties
+android/key.properties
+android/app/*.keystore
+android/app/*.jks
+
+# Gradle/Android build outputs (keep sources in android/ checked in)
+android/app/build/
+android/build/
+
+# Block all APK/AABs and symbol maps anywhere (we re-allow the one debug APK above)
+**/*.apk
+**/*.aab
+app.*.symbols
+app.*.map.json
+
+# ---- iOS (CocoaPods & Flutter intermediates) ------------------------------
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/ephemeral/
+
+# ---- macOS ----------------------------------------------------------------
+macos/Flutter/ephemeral/
+
+# ---- Windows / Linux ------------------------------------------------------
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# ---- Optional secrets (uncomment if applicable) ---------------------------
+# If you use Firebase and DO NOT want to commit credentials:
+# android/app/google-services.json
+# ios/Runner/GoogleService-Info.plist
+# .env
+# .env.*
+# *.pem
+# *.key
+# .keystore
